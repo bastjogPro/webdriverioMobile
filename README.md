@@ -3,6 +3,17 @@
 Projet d'automatisation des tests fonctionnels effectués sur Android
 
 
+## Prérequis d'installation
+
+- Node (version > 12, pour vérifier ‘node –v’ dans le terminal) Download | Node.js (nodejs.org) 
+- Installer Android Studio (Download Android Studio & App Tools - Android Developers) 
+- Installer Appium Server (Release v1.22.3-4 · appium/appium-desktop (github.com)) 
+- Installer Appium Inspector (Releases·appium/appium-inspector(github.com)) 
+- Télécharger jdk (Latest releases | Adoptium) 
+- Configurer les variables d’environnement ANDROID_HOME et JAVA_HOME (How to Set Android SDK Path in Windows 10 (programsbuzz.com))(How to set JAVA_HOME in Windows 10 | Java Tutorial Network) 
+- Une fois le projet récupéré et ouvert dans VSC, faire la commande ‘npm install’ pour installer les packages contenus dans le dossier node_modules. 
+
+
 ## Execution des tests en local (emulateur)
 
 1. Configurer le fichier de configuration (_wdio.conf.js_)
