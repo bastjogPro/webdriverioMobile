@@ -31,9 +31,11 @@ _Definition de l'apk a utiliser_
 
 _Chaque valeur importante est documentée dans le fichier de configuration._
 
-2. Lancer le serveur appium ainsi que appium inspector en local (127.0.0.1) sur le port indique dans le fichier de configuration (4723 de base)
+2. Lancer l'émulateur Android
 
-3. Exéxuter la commande dans le terminal ```npm run wdio:Android```
+3. Lancer le serveur appium ainsi que appium inspector en local (127.0.0.1) sur le port indique dans le fichier de configuration (4723 de base)
+
+4. Exéxuter la commande dans le terminal ```npm run wdio:Android```
 
 
 ## Génération du rapport d'exécution
